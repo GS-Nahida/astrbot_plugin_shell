@@ -3,6 +3,6 @@ display_name: Shell 终端执行器
 desc: 发送 /sh <命令内容> 直接在机器人所运行的系统终端中执行命令并返回结果。支持三种权限模式：仅 Bot 管理员 / 白名单成员 / 所有用户，默认仅管理员。
 short_desc: /sh 终端命令执行，三级权限控制
 help: 用法：/sh <命令内容>，例如 /sh echo hello world
-version: v1.0.0
+version: v1.0.1
 author: ナヒーダ
 repo: https://github.com/GS-Nahida/astrbot_plugin_shell
