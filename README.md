@@ -1,3 +1,6 @@
+![Moe Counter](https://count.getloli.com/@astrbot_plugin_uapi?theme=3d-num)
+
+
 # astrbot_plugin_shell —— Shell 终端命令执行器
 
 发送指令 `/sh <命令内容>`，直接在机器人所运行的**系统终端**中执行该命令，并将退出码、stdout、stderr 返回给发送者。
