@@ -31,7 +31,7 @@
 
 - `whitelist`：白名单成员 QQ 号列表，`permission_mode` 为 `whitelist` 时生效。
 - `command_timeout`：单条命令最长执行时间（秒），默认 30，超时自动强制终止。
-- `max_output_length`：单次回复最大字符数，默认 1500，超出截断防止刷屏。
+- `max_output_length`：单次回复最大字符数，超出截断防止刷屏。
 - `cwd`：命令执行的工作目录，留空使用 AstrBot 进程当前工作目录。
 
 ## ⚠️ 安全警告

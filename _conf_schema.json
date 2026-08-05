@@ -23,8 +23,8 @@
   "max_output_length": {
     "description": "单次回复的最大字符数",
     "type": "int",
-    "default": 1500,
-    "hint": "命令输出过长时按此长度截断，防止刷屏。范围 100~4000 字符。"
+    "default": 50000,
+    "hint": "命令输出过长时按此长度截断，防止刷屏。"
   },
   "cwd": {
     "description": "命令执行的工作目录",
