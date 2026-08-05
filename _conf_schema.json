@@ -1,0 +1,35 @@
+{
+  "permission_mode": {
+    "description": "权限模式",
+    "type": "string",
+    "default": "admin",
+    "options": ["admin", "whitelist", "all"],
+    "hint": "admin=仅 Bot 管理员可使用；whitelist=白名单成员可使用（Bot 管理员始终可用）；all=所有用户可使用",
+    "obvious_hint": true
+  },
+  "whitelist": {
+    "description": "白名单成员 QQ 号",
+    "type": "list",
+    "default": [],
+    "items": { "type": "string" },
+    "hint": "权限模式为 whitelist 时生效，填写允许执行 /sh 指令的成员 QQ 号。Bot 管理员不受此限制。"
+  },
+  "command_timeout": {
+    "description": "命令执行超时时间（秒）",
+    "type": "int",
+    "default": 30,
+    "hint": "超过该时间仍未执行完毕的命令将被强制终止。范围 1~3600 秒。"
+  },
+  "max_output_length": {
+    "description": "单次回复的最大字符数",
+    "type": "int",
+    "default": 1500,
+    "hint": "命令输出过长时按此长度截断，防止刷屏。范围 100~4000 字符。"
+  },
+  "cwd": {
+    "description": "命令执行的工作目录",
+    "type": "string",
+    "default": "",
+    "hint": "留空则使用 AstrBot 进程的当前工作目录。"
+  }
+}
