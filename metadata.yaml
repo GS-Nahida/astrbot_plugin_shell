@@ -4,5 +4,5 @@ desc: 发送 /sh <命令内容> 直接在机器人所运行的系统终端中执
 short_desc: /sh 终端命令执行，三级权限控制
 help: 用法：/sh <命令内容>，例如 /sh echo hello world
 version: v1.0.0
-author: astrbot
+author: ナヒーダ
 repo: https://github.com/GS-Nahida/astrbot_plugin_shell
